@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Get.coffee</title>
 </head>
 <body>
     
     <header>
-        <div class="container-flex container">
+        <div class="header">
 
-            <div class="col-flex-md-6">
-                <a href="#" class="page_header_logo">
-                    <figure>
-                        <img src="assets/img/graos.svg" alt="Logo">
-                        <figcaption>Get.coffee</figcaption>
+            <div class="header__div">
+                <a href="#" class="header__a">
+                    <figure class="header__figure">
+                        <img src="assets/img/graos.svg" alt="Logo" class="header__img">
+                        <figcaption  class="header__figcaption">get.coffee</figcaption>
                     </figure>
                 </a>
             </div>
 
-            <div class="col-flex-md-6">           
-                <nav class="page_header_menu">
+            <div class="header__div">           
+                <nav class="header__menu">
 
-                    <ul>
+                    <ul class="header__ul">
                         <li>
                             <a href="#">menu</a>
                         </li>
@@ -42,37 +43,52 @@
         </div>
     </header>
     
-    <main class="large-container">
+    <main class="main">
 
-        <section class="page_home_contant">
+        <section class="main__section">
             
-            <div class="page_home_contant_copo">
+            <div class="main__div">
                 
-                <img src="assets/img/copo.svg" alt="">
+                <img src="assets/img/copo.svg" alt="" class="main__div__img">
 
             </div>
             
-            <div class="container">
+            <div class="main__div">
                 <h2>The best way to get your coffee
                     without leaving the comfort
-                    of your house</h2>
+                    of your house.</h2>
 
-                <button>make your order</button>
+                <button type="button">make your order</button>
 
-                <ul class="page_home_list_social">
+                <ul class="main__ul">
                     <li>
-                        <a href="#">facebook</a>
+                        <a href="#">
+                            <figure class="main__ul__figure">
+                                <img src="assets/img/instagram.svg" alt="Instagram" class="main__ul__img">
+                                <figcaption  class="main__ul__figcaption">Instagram</figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li>
-                        <a href="#">instagram</a>
+                        <a href="#">
+                            <figure class="main__ul__figure">
+                                <img src="assets/img/linkdin.svg" alt="LinkedIn" class="main__ul__img">
+                                <figcaption  class="main__ul__figcaption">LinkedIn</figcaption>
+                            </figure>
+                        </a>
                     </li>
-                    <li id="li">
-                        <a href="#">twitter</a>
+                    <li>
+                        <a href="#">
+                            <figure class="main__ul__figure">
+                                <img src="assets/img/tw.svg" alt="Twitter" class="main__ul__img">
+                                <figcaption  class="main__ul__figcaption">Twitter</figcaption>
+                            </figure>
+                        </a>
                     </li>
                 </ul>
             </div>
         </section>
-        <a href="#" class="scrollDown">scroll down</a>
+        <a href="#" class="main__scrollDown">scroll down</a>
     </main>
 
 </body>
