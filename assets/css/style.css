@@ -90,7 +90,7 @@ html, body, figure, img, figcaption, div, input, textarea, p, h1, h2, h3, h4, h5
 .main{
     padding-top: 20px;
     height: 82vh;
-    background-image: url("/assets/img/Vector-left.svg"), url("/assets/img/Vector-right.svg");
+    background-image: url("../img/Vector-left.svg"), url("../img/Vector-right.svg");
     background-position-x: -120px, 200px;
     background-position-y: top, bottom;
     background-repeat: no-repeat, no-repeat;
